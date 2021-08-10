@@ -1,4 +1,4 @@
-
+/* Main Rules */
 * {
   padding: 0px;
   margin: 0px;
@@ -6,15 +6,21 @@
 .clear {
   clear: both;
 }
+
+
+/* Div Main */
 .main {
   background-color: skyblue;
 }
+
+/* Div Container */
 .container {
   width: 70%;
   margin: auto;
   font-family: Tahoma;
 }
 
+/* Div Contact */
 .container .contact {
   width: 100%;
   padding: 5%;
