@@ -3,6 +3,11 @@
   padding: 0px;
   margin: 0px;
 }
+
+a {
+  text-decoration: none;
+}
+
 .clear {
   clear: both;
 }
@@ -13,7 +18,7 @@
   background-color: skyblue;
 }
 
-/* Div Container */
+/* global style */
 .container {
   width: 70%;
   margin: auto;
@@ -95,4 +100,11 @@ button{
   padding: 5px 0px;
 }
 
+
+/* Section Services */
+.services {
+  width: 60%;
+  height: 500px;
+  background-image: url(../images/bg.jpg);
+}
 

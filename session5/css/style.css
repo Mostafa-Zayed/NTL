@@ -1,0 +1,23 @@
+/* Reset Rules */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0px;
+  list-style-type: none;
+}
+.clear {
+  clear: both;
+}
+/* Start Div Container */
+.container {
+  width: 1100px;
+  margin: auto;
+}
+

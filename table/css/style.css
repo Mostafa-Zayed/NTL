@@ -1,0 +1,39 @@
+/* Reset Rules */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+table {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+table thead th {
+  padding: 20px 0px;
+  background-color: #008c8c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+table tr {
+  padding: 10px 0px;
+}
+table tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+table tr td {
+  padding: 10px 0px;
+}
+table tr:nth-child(even) {
+  background-color: white;
+}
+
+table tr:hover {
+  background-color: gray;
+}
