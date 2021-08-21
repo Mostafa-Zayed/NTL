@@ -1,0 +1,44 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  text-transform: capitalize;
+  width: 20%;
+  float: left;
+  list-style: none;
+}
+
+hr {
+  width: 20%;
+  border: 0px;
+  height: 5px;
+  background-color: brown;
+  margin-left: 0px;
+}
+
+.one:hover ~ hr {
+  margin-left: 0%;
+}
+
+.two:hover ~ hr {
+  margin-left: 20%;
+}
+
+.three:hover ~ hr {
+  margin-left: 40%;
+}
+.four:hover ~ hr {
+  margin-left: 60%;
+}
+.five:hover ~ hr {
+  margin-left: 80%;
+}

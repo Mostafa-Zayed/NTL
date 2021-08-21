@@ -1,0 +1,15 @@
+div.test {
+  width: 200px;
+  margin: 200px auto;
+  background-color: gray;
+  height: 100px;
+  padding: 20px;
+  /* transform: rotate(60deg); */
+  transition: width 3s, background-color 2s;
+}
+
+div.test:hover {
+  /* transform: rotate(40deg); */
+  width: 500px;
+  background-color: red;
+}

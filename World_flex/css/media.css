@@ -1,0 +1,17 @@
+@media screen and (min-width: 401px) and (max-width: 768px) {
+  header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 30%;
+  }
+  nav {
+    width: 70%;
+  }
+
+  nav ul li {
+    border: 0px;
+  }
+}

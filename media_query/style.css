@@ -1,0 +1,38 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  font-size: 20px;
+}
+.images {
+  text-align: center;
+}
+div.images img {
+  width: 24%;
+}
+
+@media screen and (max-width: 768px) {
+  div.images img {
+    width: 48%;
+  }
+}
