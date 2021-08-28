@@ -1,0 +1,27 @@
+.main {
+  margin: 50px auto;
+}
+
+.main > div {
+  margin: 0px auto;
+  width: 200px;
+  background-color: #eee;
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.main input[type="checkbox"] {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.main label {
+  position: relative;
+}
+.main label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+}

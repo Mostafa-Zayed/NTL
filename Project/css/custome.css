@@ -1,0 +1,109 @@
+/* header */
+header {
+  background-color: #0c65ed;
+  font-size: 15px;
+}
+
+body {
+  /* height: 5000px; */
+}
+/* Navbar */
+.navbar {
+  height: 120px;
+}
+
+.navbar a {
+  font-size: 18px;
+}
+.nav-item > a {
+  font-weight: 500;
+}
+.nav-item > a:hover {
+  color: #0e64e7 !important;
+}
+/* about us */
+section#about-us {
+  width: 100%;
+  /* height: 500px; */
+  /* background-color: rgb(243, 241, 241); */
+  font-size: 14px;
+}
+
+section#about-us .testing-about {
+  z-index: 5;
+  background-color: white;
+  transform: translateY(45px);
+}
+.about-image {
+  transform: translateX(70%);
+  /* transform: translateY(20px); */
+}
+.more {
+  border-radius: 14.25rem;
+  /* width: 100px; */
+  padding: 5px 22px;
+  /* font-weight: bold; */
+}
+
+/* Counters */
+section#counters {
+  background-color: #f9f9f9;
+}
+
+section#counters .icon {
+  font-size: 30px;
+}
+
+/* Our Services */
+section#our-services {
+  background-image: url(../images/banner.jpg);
+  height: 950px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* Our Work */
+section#our-work ul li a {
+  font-weight: bold;
+}
+section#our-work ul li a:hover {
+  color: #0e64e7 !important;
+}
+
+/* bg-image */
+
+section#bg-image {
+  width: 100%;
+  height: 790px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../images/ecommerce-cover-2.jpg);
+}
+
+hr {
+  background-color: #0f63e3 !important;
+  border-color: #0f63e3 !important;
+  opacity: 1;
+}
+
+.team-image {
+  height: 400px;
+  /* width: 70%; */
+}
+
+/* Subscribe */
+section#subscribe {
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.feature {
+  width: 32% !important;
+}
+
+hr {
+  height: 2px !important;
+}
+hr.top {
+  transform: translateY(7px);
+}
