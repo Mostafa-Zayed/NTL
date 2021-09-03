@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sess5 Javascript</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <form id='myForm'>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Account Number :</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" name="number" id="number">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Client Name:</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" name="name" id="name">
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Balance :</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" name="balance" id="balance">
+                </div>
+                <input type="submit" value="Add" class="btn btn-primary">
+            </form>
+        </div>
+        <div class="row mt-5">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Balanc</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                  </tr>
+                </thead>
+                <tbody id="table-body">
+                  <tr>
+                      <td colspan="5">No Accounts</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

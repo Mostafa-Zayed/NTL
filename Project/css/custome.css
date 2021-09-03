@@ -47,7 +47,7 @@ section#about-us .testing-about {
 
 /* Counters */
 section#counters {
-  background-color: #f9f9f9;
+  background-color: #f5f3f3;
 }
 
 section#counters .icon {
@@ -60,6 +60,7 @@ section#our-services {
   height: 950px;
   background-size: 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 /* Our Work */
@@ -106,4 +107,65 @@ hr {
 }
 hr.top {
   transform: translateY(7px);
+}
+
+.parient {
+  position: relative;
+}
+
+.chiled {
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  top: 80%;
+}
+.parient:hover {
+  background-color: white;
+}
+.parient:hover .chiled {
+  opacity: 1;
+  transform: translateY(-80%);
+}
+
+section#our-work .flag {
+  background-color: #145ac6;
+  opacity: 0;
+  transform: translateY(250px);
+  /* display: none; */
+  transition: 2s;
+  border-radius: 5px;
+}
+
+section#our-work .flag:hover {
+  /* display: block; */
+  /* background-color: red; */
+  opacity: 0.8;
+}
+
+
+
+/* Form */
+#myForm input {
+  border-bottom: 1px solid black !important;
+  border-radius: 0px;
+}
+
+
+
+/* Section Contact info */
+section#contact-info {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+section#contact-info p > span {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+/* Section Footer */
+section#footer {
+  background-color: #1a1a1a;
+  font-weight: bold;
+  border-top: 2px solid #0f0f0f
 }

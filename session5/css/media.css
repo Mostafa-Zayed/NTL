@@ -1,0 +1,44 @@
+/*
+@media type (condtion:breakpoint) {
+    css rules 
+}
+
+type => screen , print , all  default all
+condition =>  min-width , max-width
+breakpoint => 700px , 900px , 1200px 
+*/
+
+/* Screen 0px to 700px */
+@media screen and (max-width: 700px) {
+  nav ul {
+    display: none;
+  }
+
+  nav h1 {
+    text-transform: capitalize;
+  }
+}
+
+/* Screen 0 to  360 px */
+@media screen and (max-width: 360px) {
+  nav h1 {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    float: none;
+    text-transform: capitalize;
+  }
+
+  nav ul {
+    display: block;
+    max-width: 100%;
+    margin: 40px 0;
+    text-align: left;
+  }
+  nav ul li {
+    display: block;
+    float: none;
+    text-align: left;
+    /* margin: 0px auto; */
+  }
+}
